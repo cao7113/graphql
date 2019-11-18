@@ -1,0 +1,10 @@
+# https://taskfile.dev
+version: '2'
+
+
+tasks:
+  run:
+    cmds:
+      - bundle install -V
+      - bundle exec ruby hello.rb
+    # silent: true
